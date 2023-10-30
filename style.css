@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p {
+    text-align: justify;
+  }
+
+  /* Estilos de la barra de navegación */
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos del formulario de contacto */
+  form {
+    max-width: 400px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Estilos adicionales */
+  .titulo {
+    text-align: center;
+  }
+
+  .img-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-proyecto {
+    width: 800px; /* Establece el ancho para la imagen */
+    margin-top: 10px; /* Ajusta el margen superior */
+  }
+
+  .tabla-testimonio {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .img-testimonio {
+    width: 100px; /* Ajusta el ancho de la imagen */
+  }
+  
+  .contenido-testimonio {
+    padding-left: 10px; /* Ajusta el padding izquierdo */
+  }
+
+  .contenido-noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-noticia {
+    width: 400px; /* Establece el ancho para la imagen */
+    margin-top: 10px; /* Ajusta el margen superior */
+  }
+
+  .enlace{
+    font-size: 20px;
+    text-align: center;
+  }
